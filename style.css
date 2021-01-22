@@ -13,6 +13,21 @@ body {
 
 #portfolio {
   color: rgb(113, 110, 255);
+  transition: 0.3s;
+}
+
+#portfolio:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#contact {
+  transition: 0.3s;
+}
+
+#contact:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 header {
@@ -33,6 +48,10 @@ header {
 #headline {
   z-index: 1;
   max-width: 600px;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:visited {
@@ -63,7 +82,7 @@ i:hover {
 }
 
 main {
-  background: rgb(1, 21, 131);
+  background: rgba(112, 110, 255, 0.432);
 }
 
 .project {
