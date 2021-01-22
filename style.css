@@ -7,12 +7,20 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#branding {
+  z-index: 1;
+}
+
+#portfolio {
+  color: rgb(113, 110, 255);
+}
+
 header {
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: auto;
-  background: url(img/Toronto.jpg) no-repeat center center;
+  background: url(img/Toronto.jpg) no-repeat center center fixed;
 }
 
 .color-overlay {
