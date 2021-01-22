@@ -60,6 +60,8 @@ a:visited {
 
 #work-button {
   transition: 0.3s;
+  text-decoration: none;
+  color: white;
 }
 
 #work-button:hover {
