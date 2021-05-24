@@ -84,7 +84,7 @@ i:hover {
 }
 
 main {
-  background: rgba(112, 110, 255, 0.432);
+  background: white;
   overflow: hidden;
 }
 
@@ -95,7 +95,7 @@ main {
 
 .thumbnail:hover {
   transition: 0.3s;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .thumbnail {
   height: 200px;
